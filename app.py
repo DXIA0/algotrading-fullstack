@@ -70,8 +70,8 @@ def main():
                 st.text("*   N/A Weekend or Markets Closed   *")
 
         if st.button("Refresh Databases"):
-            modules.alpaca_populate_stocks()
-            modules.alpaca_populate_prices()
+            #modules.alpaca_populate_stocks()
+            #modules.alpaca_populate_prices()
 
             try:
                 iex_market_scan = modules.iex_market_scan()

@@ -1,0 +1,30 @@
+#env
+pipenv
+django
+djangorestframework
+django-rest-knox
+python-multipart # Form data requires "python-multipart" to be installed
+
+#data handling
+pandas
+plotly
+matplotlib
+
+# natural language processing
+nltk
+
+#financial packages
+yfinance
+finnhub-python
+websocket
+websocket-client
+alpaca-trade-api
+ibapi #interactive brokers api https://investors.interactivebrokers.com/en/index.php?f=16040
+
+#web request and interfacing
+fastapi
+bs4
+requests
+streamlit #web interface
+jinja2 #for html templates for fast api use
+uvicorn #run apis on local machine
